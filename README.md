@@ -1,4 +1,6 @@
-# EX:6 Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn
+# Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn
+## Exp no:6
+## Date:12.10.23
 
 ## AIM:
 To write a program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
@@ -19,10 +21,11 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 5.Find the accuracy of the model and predict the required values by importing the required module from sklearn.
 
 ## Program:
-```
+Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
+
 Developed by: S Adithya Chowdary.
+
 RegisterNumber:212221230100.
-```
 ```
 import pandas as pd
 data=pd.read_csv("/content/Employee.csv")
@@ -50,31 +53,31 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
 
 ## Output:
-![image](https://github.com/Adithya-Siddam/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/93427248/8d7471da-0948-48c2-ae45-15fec635f32e)
+### Initial data set:
+![6 1](https://github.com/Brindha77/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/118889143/4fdab09e-a67b-45ba-b6ea-1430530c1f44)
+
+### Data info:
+![6 2](https://github.com/Brindha77/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/118889143/40bbf9f1-0b4b-4554-9398-67eb9f3e3a6c)
 
 
-![image](https://github.com/Adithya-Siddam/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/93427248/8b7b8ced-e77b-46ce-809c-981e3b7c63c0)
+### Optimization of null values:
+![6 3](https://github.com/Brindha77/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/118889143/130e597d-f5e9-42fa-96e7-5bcfb522f28a)
+
+### Assignment of x value:
+![6 4](https://github.com/Brindha77/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/118889143/b638f42f-9423-4dcd-81ce-d6af81aa7bc4)
+
+### Assignment of y value:
+![6 5](https://github.com/Brindha77/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/118889143/48b19d12-f586-4f21-8f4f-44a9e7562409)
+
+### Converting string literals to numerical values using label encoder:
+![6 6](https://github.com/Brindha77/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/118889143/efd59b97-4b8e-4855-8f54-6194f2ec6d44)
+
+### Accuracy:
+![6 8](https://github.com/Brindha77/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/118889143/126faecd-11de-4cdb-9637-e98c7bba520e)
 
 
-
-![image](https://github.com/Adithya-Siddam/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/93427248/e26b5e3d-a44a-4b77-a93e-0607996726ea)
-
-
-![image](https://github.com/Adithya-Siddam/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/93427248/1aa4048a-3ef5-4d18-82fb-ce444e9123a5)
-
-
-![image](https://github.com/Adithya-Siddam/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/93427248/6707435e-2170-4f6e-9430-fba8b4c0a628)
-
-
-![image](https://github.com/Adithya-Siddam/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/93427248/18b510a2-f585-4a0d-a1e3-89dc0f3d1740)
-
-
-
-![image](https://github.com/Adithya-Siddam/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/93427248/5b06aada-ff32-4aef-97ff-8258596d29b7)
-
-
-
-![image](https://github.com/Adithya-Siddam/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/93427248/667ce484-01d1-4748-bf97-8e455156aa53)
+### Prediction:
+![6 7](https://github.com/Brindha77/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/118889143/655f10f8-8fff-4d48-9115-89736a07c6fb)
 
 ## Result:
 Thus the program to implement the  Decision Tree Classifier Model for Predicting Employee Churn is written and verified using python programming.
